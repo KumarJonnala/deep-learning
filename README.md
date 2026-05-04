@@ -13,6 +13,7 @@ Hands-on deep learning practice in PyTorch, working through core concepts from s
 
 `1_shallow_net.ipynb`: Shallow neural network — forward pass, weights, biases
 `2_activation_functions.ipynb`: Sigmoid, tanh, ReLU — comparison and intuition
+`3_cost_functions.ipynb`: MSE and cross-entropy
 
 In progress:
 Backpropagation & gradient descent
@@ -36,6 +37,9 @@ output layer
 layer types:
     dense/fully connected
     softmax
+cost/loss function
+    MSE
+    cross-entropy
 forward propagation
 
 ---
