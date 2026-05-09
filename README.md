@@ -14,12 +14,13 @@ Hands-on deep learning practice in PyTorch, working through core concepts from s
 `1_shallow_net.ipynb`: Shallow neural network — forward pass, weights, biases\
 `2_activation_functions.ipynb`: Sigmoid, tanh, ReLU — comparison and intuition\
 `3_cost_functions.ipynb`: MSE and cross-entropy\
-`4_intermediate_net.ipynb`: Intermediate layer neural network
+`4_intermediate_net.ipynb`: Intermediate layer neural network\
+`5_weight_initialization.ipynb`: Neuron activations with normal and xavier 
 
-In progress:
-Convolutional Neural Networks (CNNs)
-Recurrent Neural Networks (RNNs)
-LSTMs
+In progress:\
+Convolutional Neural Networks (CNNs)\
+Recurrent Neural Networks (RNNs)\
+LSTMs\
 Transformers
 
 ---
