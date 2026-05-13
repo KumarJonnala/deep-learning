@@ -15,7 +15,9 @@ Hands-on deep learning practice in PyTorch, working through core concepts from s
 `2_activation_functions.ipynb`: Sigmoid, tanh, ReLU — comparison and intuition\
 `3_cost_functions.ipynb`: MSE and cross-entropy\
 `4_intermediate_net.ipynb`: Intermediate layer neural network\
-`5_weight_initialization.ipynb`: Neuron activations with normal and xavier 
+`5_weight_initialization.ipynb`: Neuron activations with normal and Xavier initialisation — effect on activation distributions
+`6_deep_net.ipynb`: Deep neural net with batchnorm, dropout, adam optim
+`7_regression.ipynb`: Regression task
 
 In progress:\
 Convolutional Neural Networks (CNNs)\
@@ -41,8 +43,9 @@ batch size: initialise with 16-128, adjust based on compute and time\
 epochs\
 num of layers: initialise with 2-4 and adjust based on cost\
 num of neurons in a layer: start with 64 and just based on accuracy. \
-    data with more low-level featuresmore -> additional neurons in network early layers\
+    data with more low-level features -> additional neurons in network early layers\
     data with high-level features -> additional neurons in network later layers\
+dropout rate: typically 0.2-0.5 — higher = more regularisation, risk of underfitting\
 Occam's razor: Simplest arch that can provide desired results is best.
 
 ---
@@ -57,6 +60,7 @@ artificial neurons:\
     sigmoid\
     tanh\
     ReLU\
+    linear\
 input layer\
 hidden layer\
 output layer\
@@ -68,12 +72,16 @@ cost/loss function\
     cross-entropy\
 forward propagation\
 back propagation\
+unstable/vanishing gradients\
+Xavire weight initialisation\
+batch normalisation\
+dropout\
 optimizers:\
     stochastic gradient descent\
+    Adam\
 optimizer hyperparameters:\
     learning rate\
     batch size\
 
 ---
-
 
