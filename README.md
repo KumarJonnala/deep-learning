@@ -67,6 +67,9 @@ output layer\
 layer types:\
     dense/fully connected\
     softmax\
+    convolutional
+    pooling
+    flatten
 cost/loss function\
     MSE\
     cross-entropy\
